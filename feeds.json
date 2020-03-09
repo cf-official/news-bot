@@ -1,0 +1,33 @@
+{
+	"normal":[
+		{
+			"category": "Astronomy",
+			"cat_short": "astronomy",
+			"source": "Space News",
+			"link": "https://spacenews.com/feed/"
+		},
+		{
+			"category": "IT/Technology",
+			"cat_short": "it",
+			"source": "ArsTechnica",
+			"link": "http://feeds.arstechnica.com/arstechnica/technology-lab"
+		},
+		{
+			"category": "Medical",
+			"cat_short": "medical",
+			"source": "Medical News Today",
+			"link": "https://rss.medicalnewstoday.com/featurednews.xml"
+		}
+	],
+	"frequent": [
+		{
+			"category": "World News",
+			"cat_short":"world",
+			"source": "Reddit",
+			"link": "https://reddit.com/r/worldnews/.rss",
+			"hex":"#FF5700"
+		}
+	],
+	"frequent_mins": 60,
+	"normal_mins":180
+}
