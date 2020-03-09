@@ -13,7 +13,7 @@ let client = new Discord.Client({
 });
 let parser = new Parser();
 let updates = {};
-client.login("Njg0MzMwNDI0MTg4NTM0Nzk0.XmXmog.Itn2Gir6-zGmq3f0pIQ1Vzf_XlM");
+client.login("token");
 
 client.on('ready', () => {
   client.user.setActivity(`over the news`, {
