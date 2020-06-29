@@ -10,6 +10,7 @@ mod logger;
 mod handler;
 mod news_types;
 mod structures;
+mod config;
 
 #[tokio::main]
 async fn main() {
@@ -19,7 +20,7 @@ async fn main() {
     let articles = process_channel(channel).await.unwrap();
     log(LogLevel::OK, format!("Buffered {} articles into memory at startup", articles.len()));
     log(LogLevel::OK, "Building Client");
-    let mut client = Client::new("TOKEN")
+    let mut client = Client::new(config::TOKEN)
         .event_handler(handler::Handler)
         .await
         .expect("Err creating client");
