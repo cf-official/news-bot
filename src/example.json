@@ -1,0 +1,59 @@
+{
+  "id": 275377268728135680,
+  "is_premium": 1, //yes
+  "last_delivery": {
+    "id": 3,
+    "timestamp": "2020:01:06T00:00:00",
+    "headline": "Lunar becomes glorious communist leader"
+  },
+  "subscriptions": [
+    {
+      "guild": {
+        "id": 275377268728135680
+      },
+      "feed": {
+        "name": "Communist Central News",
+        "category": "Political News",
+        "feed_url": "https://cnn.com/rss/politics.xml",
+        "profile_icon": "https://cnn.com/rss/profile_icon.png",
+        "latest_article": {
+          "id": 1,
+          "timestamp": "2020:01:06T00:00:00",
+          "headline": "Lunar becomes glorious communist leader"
+        }
+      }
+    },
+    {
+      "guild": {
+        "id": 275377268728135680
+      },
+      "feed": {
+        "name": "Communist Central News 2",
+        "category": "Political News",
+        "feed_url": "https://cnn.com/rss/politics.xml",
+        "profile_icon": "https://cnn.com/rss/profile_icon.png",
+        "latest_article": {
+          "id": 2,
+          "timestamp": "2020:01:06T00:00:00",
+          "headline": "Lunar becomes glorious communist leader"
+        }
+      }
+    },
+    {
+      "guild": {
+        "id": 275377268728135680
+      },
+      "feed": {
+        "name": "Communist Central News 3",
+        "category": "Political News",
+        "feed_url": "https://cnn.com/rss/politics.xml",
+        "profile_icon": "https://cnn.com/rss/profile_icon.png",
+        "latest_article": {
+          "id": 3,
+          "timestamp": "2020:01:06T00:00:00",
+          "headline": "Lunar becomes glorious communist leader"
+        }
+      }
+    }
+  ]
+}
